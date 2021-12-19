@@ -86,9 +86,10 @@ public class Main {
         System.out.println("8.Вивести найбільше значення масиву: " + max);
 //10. Вивести перших 20 символів з таблиці ASCI
         System.out.print("10.Вивести перших 20 символів з таблиці ASCI: ");
-        for (int i = 0; i < 20; i++) {
+        char[] ars = new char[20];
+        for (int i = 0; i < ars.length; i++) {
             System.out.print((char) (i));
         }
 
-        }
     }
+}
